@@ -12,3 +12,5 @@ libraryDependencies += guice
 javacOptions ++= Seq("-source", "17", "-target", "17")
 
 Compile / compile / javacOptions ++= Seq("-source", "17", "-target", "17")
+
+mainClass in Compile := Some("play.core.server.ProdServerStart")
