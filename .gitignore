@@ -10,5 +10,6 @@ logs
 # Ignorar todo el contenido de la carpeta target
 target/
 
-# Pero permitir los archivos de distribución de Play Framework
+# Pero permitir los archivos de distribución de Play Framework (.zip)
+!target/universal/
 !target/universal/*.zip
