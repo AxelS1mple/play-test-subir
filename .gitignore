@@ -1,5 +1,4 @@
 logs
-target
 /.bsp
 /.idea
 /.idea_modules
@@ -7,3 +6,9 @@ target
 /.project
 /.settings
 /RUNNING_PID
+
+# Ignorar todo el contenido de la carpeta target
+target/
+
+# Pero permitir los archivos de distribución de Play Framework
+!target/universal/*.zip
