@@ -1,0 +1,7 @@
+@(message: String)
+
+@main("Error") {
+    <h2>Ha ocurrido un error</h2>
+    <p>@message</p>
+    <a href="@routes.HomeController.index()">Volver al inicio</a>
+}

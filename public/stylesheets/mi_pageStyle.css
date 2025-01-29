@@ -1,0 +1,76 @@
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.welcome-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Card de bienvenida */
+.welcome-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+/* Título */
+.welcome-title {
+    font-size: 2.5rem;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+/* Mensaje de bienvenida */
+.welcome-message {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Contenedor del CTA */
+.cta-container {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 600px) {
+    .welcome-container {
+        padding: 20px;
+    }
+
+    .welcome-card {
+        padding: 30px;
+    }
+
+    .welcome-title {
+        font-size: 2rem;
+    }
+}

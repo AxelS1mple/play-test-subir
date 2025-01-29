@@ -1,0 +1,24 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/aboutStyle.css")">
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/mi_pageStyle.css")">
+    </head>
+    <body>
+        <nav>
+            <a href="@routes.HomeController.index()">Inicio</a> /
+            @if(title != "Inicio") {
+                <span>@title</span>
+            }
+            <a href="@routes.HomeController.about()">about</a> /
+        </nav>
+
+        <div>
+        @content
+        </div>
+    </body>
+</html>
