@@ -1,1 +1,2 @@
-web: target/universal/stage/bin/play-test
+web: stage/play-test
+    
